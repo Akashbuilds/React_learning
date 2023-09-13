@@ -1,10 +1,6 @@
 import Message from "./Message";
 
-function App(){
-  const name = "Akash";
-  if (name)
-    return <h1>Hello {name}</h1>;
-  return <h1>Hello World</h1>;
+function App() {
+    return <div><Message/></div>
 }
-
 export default App;
